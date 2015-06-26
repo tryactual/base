@@ -1,12 +1,17 @@
 {
-  "name": "actual-base",
+  "name": "base.css",
   "version": "1.0.0",
   "description": "A lean and consistent baseline stylesheet for the web",
-  "main": "index.html",
+  "main": "dist/css/base.css",
+  "style": "dist/css/base.css",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tryactual/base.git"
   },
   "author": "Stephen Way <stephen@stephenway.net>",
   "license": "MIT",

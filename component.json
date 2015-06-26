@@ -1,0 +1,8 @@
+{
+  "name": "base.css",
+  "repo": "tryactual/base",
+  "version": "1.0.0",
+  "styles": ["dist/css/base.css"],
+  "author": "Stephen Way",
+  "license": "MIT"
+}
