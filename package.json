@@ -1,0 +1,17 @@
+{
+  "name": "actual-base",
+  "version": "1.0.0",
+  "description": "A lean and consistent baseline stylesheet for the web",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp watch"
+  },
+  "author": "Stephen Way <stephen@stephenway.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-sass": "^2.0.2"
+  }
+}

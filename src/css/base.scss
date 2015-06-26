@@ -1,0 +1,106 @@
+// reset.css
+// --------------------
+
+%no-border { border: 0; }
+%no-font { font-size: inherit; }
+%no-margin { margin: 0; }
+%no-outline { outline: 0; }
+%no-padding { padding: 0; }
+
+// No zooming on mobile
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+
+// Set basic body styles for consistent margins and type
+body {
+    @extend %no-margin;
+    font: 16px/1 sans-serif;
+}
+
+// Cleaner iframes
+iframe { @extend %no-border; }
+
+// Reset box model
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+blockquote,
+figure,
+button {
+    @extend %no-margin;
+    @extend %no-padding;
+}
+
+ol,
+ul {
+  @extend %no-margin;
+}
+
+// Upgrade these to block-level
+main { display: block; }
+
+// Delegate to document outline
+h1,
+h2,
+h3,
+h4,
+h5,
+p { @extend %no-font; }
+
+// No more bolder, just bold
+strong { font-weight: bold; }
+
+sup {
+  position: relative;
+  top: -.5em;
+  font-size: 65%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+// Links get less styling
+a,
+button {
+    color: inherit;
+    transition: .3s;
+}
+
+a { text-decoration: none; }
+
+// Reset to native appearance
+button {
+    @extend %no-border;
+    @extend %no-font;
+    overflow: visible;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+    -webkit-font-smoothing: inherit;
+
+    &:focus { @extend %no-outline; }
+
+}
+
+// Fix old focus bug
+::-moz-focus-inner {
+    @extend %no-border;
+    @extend %no-padding;
+}
+
+// No ugly focus outlines
+:focus { @extend %no-outline; }
+
+// Images in a responsive web deserve better fluid width
+img {
+    @extend %no-border;
+    max-width: 100%;
+    height: auto;
+}
