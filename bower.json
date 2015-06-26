@@ -1,0 +1,14 @@
+{
+  "name": "base.css",
+  "version": "1.0.0",
+  "description": "A lean and consistent baseline stylesheet for the web",
+  "main": "dist/css/base.css",
+  "author": "Stephen Way",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "component.json",
+    "package.json"
+  ]
+}
