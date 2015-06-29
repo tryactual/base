@@ -11,3 +11,4 @@ With&hellip;
 * [NPM](https://www.npmjs.com/package/base.css) `npm i --save base.css`
 * [Bower](http://bower.io) `bower install base.css`
 * [Component](https://github.com/component/component) `component install tryactual/base`
+* Or download the latest zip from Github
